@@ -6,6 +6,7 @@ public class Main {
 			//new ReallySimpleSubscriber(),
 			new SphereCircumference(),
 			//new SphereVolume(),
+			new CircleCircumference(),
 			new CircleVolum()
 	};
 	public static void main(String[] args) {
