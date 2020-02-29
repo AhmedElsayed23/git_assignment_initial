@@ -7,6 +7,9 @@ public class Main {
 			new SphereCircumference(),
 			//new SphereVolume(),
 			new CircleCircumference(),
+
+			new CircleVolum()
+
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -14,6 +17,7 @@ public class Main {
 			mathTopic.addSubscriber(sub);
 		}
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enter input");
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
 	}
