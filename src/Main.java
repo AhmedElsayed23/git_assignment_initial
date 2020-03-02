@@ -5,6 +5,13 @@ public class Main {
 			//new SimpleSubscriber(),
 			//new ReallySimpleSubscriber(),
 			new SphereCircumference(),
+			//new SphereVolume(),
+			new CircleCircumference(),
+
+			new CircleVolum(),
+			
+			new circleArea(),
+
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -12,6 +19,7 @@ public class Main {
 			mathTopic.addSubscriber(sub);
 		}
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enter input");
 		String input = sc.next();
 		// checking valid number
 				char[] charArray = input.toCharArray();
