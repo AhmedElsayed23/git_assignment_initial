@@ -10,7 +10,7 @@ public class circleArea implements ISubscriber {
 	            try{
 	                if(r >= 0){
 	                    double circleArea = r * r * (Math.PI) ;
-	                    System.out.println("Area of the circle is " + circleArea);
+	                    System.out.println("Area of the circle = " + circleArea);
 	                }
 	            }catch (Exception e){
 	                System.out.println("Positive number required");

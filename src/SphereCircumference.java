@@ -9,9 +9,7 @@ public class SphereCircumference implements ISubscriber {
             try{
                 if(r >= 0){
                     double sphereCircumference = 2 * Math.PI * r;
-                    System.out.println("Sphere circumference is " + sphereCircumference);
-                }else {
-                    throw new Exception ("Error, number can't be negative.");
+                    System.out.println("Sphere circumference = " + sphereCircumference);
                 }
             }catch (Exception e){
                 System.out.println("Positive number required");

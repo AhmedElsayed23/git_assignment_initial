@@ -9,7 +9,7 @@ public class CircleVolum implements ISubscriber{
 		}
 		else {
 		Double res=(4.0/3.0)*Math.PI*r*r*r;
-		System.out.println("Circle volume: "+res);
+		System.out.println("Circle volume =  "+res);
 		}
 	}
 		catch (Exception e) {

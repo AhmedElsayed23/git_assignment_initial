@@ -9,7 +9,7 @@ public class SphereVolume implements ISubscriber {
             try{
                 if(r >= 0){
                     double sphereVolume = (4.0 / 3.0) * (Math.PI) * (Math.pow(r , 3));
-                    System.out.println("Sphere Volume is " + sphereVolume);
+                    System.out.println("Sphere Volume  = " + sphereVolume);
                 }
             }catch (Exception e){
                 System.out.println("Positive number required");

@@ -10,7 +10,7 @@ public class CircleCircumference  implements ISubscriber{
             try{
                 if(radius >= 0){
                     double circlecircumference = 2 * Math.PI * radius;
-                    System.out.println("circlecircumference " + circlecircumference);
+                    System.out.println("circle circumference = " + circlecircumference);
                 
                 }}catch (Exception e){
                 System.out.println("Positive number required");
