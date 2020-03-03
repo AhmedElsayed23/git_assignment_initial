@@ -7,15 +7,12 @@ public class CircleCircumference  implements ISubscriber{
 		try {
             
             double radius =  Double.parseDouble(input);
-            try{
                 if(radius >= 0){
                     double circlecircumference = 2 * Math.PI * radius;
                     System.out.println("circle circumference = " + circlecircumference);
-                
-                }}catch (Exception e){
-                System.out.println("Positive number required");
-            }
-
+                }else {
+                	 System.out.println("Positive number required");
+                }
 		}
         catch (NumberFormatException e)
         {

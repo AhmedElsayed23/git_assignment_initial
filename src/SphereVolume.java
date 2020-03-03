@@ -6,15 +6,13 @@ public class SphereVolume implements ISubscriber {
         {
             // checking valid number
             double r =  Double.parseDouble(input);
-            try{
                 if(r >= 0){
                     double sphereVolume = (4.0 / 3.0) * (Math.PI) * (Math.pow(r , 3));
                     System.out.println("Sphere Volume  = " + sphereVolume);
+                }else {
+                	System.out.println("Positive Number requird");
                 }
-            }catch (Exception e){
-                System.out.println("Positive number required");
-            }
-
+         
         }
         catch (NumberFormatException e)
         {

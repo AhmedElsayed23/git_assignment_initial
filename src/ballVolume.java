@@ -1,5 +1,5 @@
 
-public class CircleVolum implements ISubscriber{
+public class ballVolume implements ISubscriber{
 
 	public void notifySubscriber(String in) {
 		try {
@@ -13,7 +13,7 @@ public class CircleVolum implements ISubscriber{
 		}
 	}
 		catch (Exception e) {
-			System.out.println(e.toString());
+			System.out.println(in + " is not an integer number");
 		}
 	}
 	

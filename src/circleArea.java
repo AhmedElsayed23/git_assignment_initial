@@ -7,15 +7,12 @@ public class circleArea implements ISubscriber {
 	        {
 	            // checking valid number
 	            double r =  Double.parseDouble(input);
-	            try{
-	                if(r >= 0){
-	                    double circleArea = r * r * (Math.PI) ;
-	                    System.out.println("Area of the circle = " + circleArea);
-	                }
-	            }catch (Exception e){
-	                System.out.println("Positive number required");
+	            if(r >= 0){
+	                 double circleArea = r * r * (Math.PI) ;
+	                 System.out.println("Area of the circle = " + circleArea);
+	            }else {
+	            	System.out.println("Positive number required");
 	            }
-
 	        }
 	        catch (NumberFormatException e)
 	        {

@@ -7,7 +7,7 @@ public class Main {
 			//new ReallySimpleSubscriber(),
 			new circleArea(),
 			new CircleCircumference(),
-			new CircleVolum(),
+			new ballVolume(),
 			new SphereArea(),
 			new SphereCircumference(),
 			new SphereVolume(),
@@ -17,7 +17,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.print(  "1- Circle Area\n"
 						+  "2- Circle Circumference\n"
-				 		+  "3- Circle Volume\n"
+				 		+  "3- Ball Volume\n"
 						+  "4- Sphere Area\n"
 				 		+  "5- Sphere Circumference\n"
 						+  "6- Sphere Volume\n"
@@ -48,7 +48,7 @@ public class Main {
 				case 3:
 					System.out.print("Enter input = ");
 					input = sc.next();
-					CircleVolum cv = new CircleVolum();
+					ballVolume cv = new ballVolume();
 					cv.notifySubscriber(input);
 					break;
 			
